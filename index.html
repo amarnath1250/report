@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Manthan</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script type = "text/javascript" src = "https://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.4/underscore-min.js"></script>
+	<script type = "text/javascript" src = "https://ajax.cdnjs.com/ajax/libs/backbone.js/0.3.3/backbone-min.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="select-graph">
+			<select name="graph-type" class="graph-type">
+				<option value="sales">Sales</option>
+				<option value="orders">Orders</option>
+				<option value="pageViews">Page Views</option>
+				<option value="clickThruRate">Click Through Rate</option>
+			</select>
+		</div>
+		<div id="graph"></div>
+	</div>
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
